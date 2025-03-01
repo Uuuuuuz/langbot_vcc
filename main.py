@@ -66,7 +66,7 @@ class VoiceCloneChat(BasePlugin):
     
     def __init__(self, plugin_host: APIHost):
         super().__init__(plugin_host)
-        self.api_key = "sk-f38c2fc950e7475d9eddd60f4acb8d17"  # 建议改为从配置文件读取
+        self.api_key = "yourapi"  # 建议改为从配置文件读取
         dashscope.api_key = self.api_key
         self.voice_ids = {}  # 使用字典存储每个用户的voice_id
         self.target_model = "cosyvoice-v1"
