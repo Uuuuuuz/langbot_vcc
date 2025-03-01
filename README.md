@@ -1,6 +1,8 @@
 # VoiceCloneChat 语音克隆聊天插件
+!plugin get https://github.com/Uuuuuuz/langbot_vcc.git
 
 这是一个基于阿里云灵积模型的语音克隆聊天插件，可以克隆用户的声音并用克隆的声音朗读文本。
+写入你自己的apikey
 
 ## 功能特点
 
@@ -12,8 +14,8 @@
 ## 安装要求
 
 ```
-dashscope>=1.10.0
-graiax-silkcoder==0.3.6
+dashscope
+graiax-silkcoder
 aiohttp
 ```
 
